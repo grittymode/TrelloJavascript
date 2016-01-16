@@ -1,5 +1,5 @@
 /*********************************
-*		Controller  	 *
+*		Controller  			 *
 *********************************/
 function process(){
 	var boardArray = [];
@@ -130,6 +130,5 @@ function parse(data)
 }
 
 function test() {
-
 	return  JSON.stringify(getBoardArrayFromTrello (KEY, TOKEN));
 }
